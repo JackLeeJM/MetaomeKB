@@ -10,5 +10,5 @@ and analysing relevant metadata across multi-omics databases to conduct their ex
 
 For local hosting, use the following docker command:
 ```
-docker run -p 80:8080 -e PORT=8080 streamlit-app
+docker run -p 80:8080 -e PORT=8080 .
 ```
