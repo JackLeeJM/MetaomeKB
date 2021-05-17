@@ -24,7 +24,18 @@ source env/bin/activate
 pip install -r requirements.txt
 ```
 
-For local hosting, use the following docker command:
+For local hosting, use the following docker command to build and run the image:
 ```
-docker run -p 80:8080 -e PORT=8080 .
+# Build image
+docker build -f Dockerfile -t metaomekb:latest .
+
+# Run image
+docker run -p 80:8080 -e PORT=8080 metaomekb:latest
+```
+
+Pulling from DockerHub and running the image:
+```
+docker pull astralbloke/metaome-streamlit
+
+docker run -p 80:8080 -e PORT=8080 astralbloke/metaome-streamlit
 ```
