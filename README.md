@@ -1,5 +1,5 @@
 # MetaomeKB
-Meta-ome for Homology Search
+Meta-ome KnowledgeBase
 
 Web App : https://metaomekb.herokuapp.com/
 
